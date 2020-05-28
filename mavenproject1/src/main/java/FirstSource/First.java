@@ -10,6 +10,11 @@ package FirstSource;
  * @author WildJasmine
  */
 public class First {
+    
+    
+    public void compute(int i){
+        System.out.println("i="+i);
+    }
      public static void main(String args[]){
         System.out.println("Hurray!....Hi this is my first Java class");
     }

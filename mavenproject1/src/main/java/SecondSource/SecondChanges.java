@@ -5,11 +5,13 @@
  */
 package SecondSource;
 
+import FirstSource.First;
+
 /**
  *
  * @author WildJasmine
  */
-public class SecondChanges {
+public class SecondChanges extends First{
     int i,j;
     public SecondChanges(int k,int j){
         i=k;
@@ -19,8 +21,15 @@ public class SecondChanges {
         
     }
     
+    @Override
+    public void compute(int j){
+        System.out.println("j="+j);
+        //System.out.println("k="+k);
+    }
+    
     public static void main(String[] args) {
-        new SecondChanges(11, 22);
+        SecondChanges s=new SecondChanges(11, 22);
+        s.compute(111);
         System.out.println("This is main method");
         
     }
