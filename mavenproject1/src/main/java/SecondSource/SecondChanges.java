@@ -20,7 +20,7 @@ public class SecondChanges {
     }
     
     public static void main(String[] args) {
-        SecondChanges s=new SecondChanges(11, 22);
+        new SecondChanges(11, 22);
         
     }
     
