@@ -11,6 +11,6 @@ package FirstSource;
  */
 public class First {
      public static void main(String args[]){
-        System.out.println("Hi this is my first Java class");
+        System.out.println("Hurray!....Hi this is my first Java class");
     }
 }
