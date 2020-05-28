@@ -21,6 +21,7 @@ public class SecondChanges {
     
     public static void main(String[] args) {
         new SecondChanges(11, 22);
+        System.out.println("This is main method");
         
     }
     
